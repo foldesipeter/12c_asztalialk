@@ -10,7 +10,7 @@ namespace Matrix
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("nem tanultam ilyet");
+            Console.WriteLine("nem tanítottak ilyet");
             Console.ReadLine();
         }
     }
