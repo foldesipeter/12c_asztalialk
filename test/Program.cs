@@ -10,7 +10,8 @@ namespace test
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("lló");
+            Console.WriteLine("11.ben nem tanított senki programozni minket");
+            Console.ReadLine();
         }
     }
 }
