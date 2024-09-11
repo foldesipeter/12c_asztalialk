@@ -10,7 +10,7 @@ namespace TobbElem
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("11.ben nem tanított senki programozni minket");
+            Console.WriteLine("11.ben nem tanított senki programozni");
             Console.ReadLine();
         }
     }
