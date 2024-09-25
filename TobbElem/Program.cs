@@ -19,21 +19,21 @@ namespace TobbElem
         // Konstuktor
         public TobbElemOsztaly()
         {
-            szam = 0;
-            isParos = false;
+            this.szam = 0;
+            this.isParos = false;
         }
 
         public void GetSzam(int p)
         {
-            szam = p;
+            this.szam = p;
         }
         public void SetSzamTipus()
         {
-            isParos = szam % 2 == 0;
+            this.isParos = szam % 2 == 0;
         }
         public bool outSzamTipus()
         {
-            return isParos;
+            return this.isParos;
         }
     }
     class Program
@@ -41,16 +41,34 @@ namespace TobbElem
         static void Main(string[] args)
         {
             string valasz = string.Empty;
+            int paros = 0,
+                szam = 0,
+            paratlan = 0;
             // Példányosíjuk az osztályt, másnéven objektumot hozunk létre az osztályból
             TobbElemOsztaly a = new TobbElemOsztaly();
 
             // Szám megadása
-            a.GetSzam(15);
-            a.SetSzamTipus();
-            valasz = a.outSzamTipus() ? "páros" : "páratlan";
-            Console.WriteLine($"A szám típusa: {valasz}");
-            Console.ReadKey();
+            while(paros + paratlan < 100)
+            {
+                Console.WriteLine("Adj meg egy egész számot! ");
+                szam = Convert.ToInt32(Console.ReadLine());
 
+                a.GetSzam(szam);
+                a.SetSzamTipus();
+                if(a.outSzamTipus())
+                {
+                    valasz = "páros";
+                    paros+=szam;
+                }
+                else
+                {
+                    valasz = "páratlan";
+                    paratlan+=szam;
+                }
+
+                Console.WriteLine($"A szám típusa: {valasz}, eddig {paros + paratlan} számot adott meg");
+                Console.ReadKey();
+            }
         }
     }
 }
