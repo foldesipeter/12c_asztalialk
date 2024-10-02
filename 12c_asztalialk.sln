@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "logikai", "logikai\logikai.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prefix", "prefix\prefix.csproj", "{C5AC3390-5B70-463E-AFD3-00AE6B5C3BB7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "haag", "haag\haag.csproj", "{D2E1BAA0-318C-438D-9826-59A674C9B25B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{C5AC3390-5B70-463E-AFD3-00AE6B5C3BB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5AC3390-5B70-463E-AFD3-00AE6B5C3BB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5AC3390-5B70-463E-AFD3-00AE6B5C3BB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2E1BAA0-318C-438D-9826-59A674C9B25B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2E1BAA0-318C-438D-9826-59A674C9B25B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2E1BAA0-318C-438D-9826-59A674C9B25B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2E1BAA0-318C-438D-9826-59A674C9B25B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
