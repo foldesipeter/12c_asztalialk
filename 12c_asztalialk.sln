@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "haag", "haag\haag.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp3", "ConsoleApp3\ConsoleApp3.csproj", "{120A01DA-8608-4008-AA16-EB2F65751143}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Téglalap OOP", "Téglalap OOP\Téglalap OOP.csproj", "{243D625D-857D-432E-A564-F8DED06145C9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{120A01DA-8608-4008-AA16-EB2F65751143}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{120A01DA-8608-4008-AA16-EB2F65751143}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{120A01DA-8608-4008-AA16-EB2F65751143}.Release|Any CPU.Build.0 = Release|Any CPU
+		{243D625D-857D-432E-A564-F8DED06145C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{243D625D-857D-432E-A564-F8DED06145C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{243D625D-857D-432E-A564-F8DED06145C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{243D625D-857D-432E-A564-F8DED06145C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
