@@ -10,7 +10,7 @@ namespace Matrix
     {
         static void Main(string[] args)
         {
-            a
+           
         }
     }
 }
