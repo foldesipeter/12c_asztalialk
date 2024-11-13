@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Téglalap_OOP
 {
     class Program
-    {
+    {a
         static void Main(string[] args)
         {
             Teglalapszamitasok teglaszam = new Teglalapszamitasok();
