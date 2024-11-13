@@ -20,7 +20,7 @@ namespace Téglalap_OOP
         public Teglalapszamitasok()
         {
 
-        }a
+        }
         public Teglalapszamitasok(double a, double b, double c)
         {
             this.aoldal = a;
