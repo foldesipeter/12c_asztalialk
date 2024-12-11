@@ -76,6 +76,7 @@ namespace HaromszogTipusaOOP
             }
 
 
+
             Console.WriteLine("Nyomjon meg egy billentyűt a kilépéshez...");
             Console.ReadLine();
         }
