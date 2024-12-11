@@ -11,7 +11,7 @@ namespace korhasab
         // Az osztály feladata a sugárból kiszámítja a kör területét és kerültét
 
         // Osztályváltozók
-        private double sugar,
+       protected double sugar,
             kerulet,
             terulet;
 

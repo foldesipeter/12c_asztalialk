@@ -35,6 +35,10 @@ namespace korhasab
             Console.WriteLine($"A kör adatai: \nsugar= {k21.GetSugar()}, \nkerulet = {k21.GetKerulet()}, \nterulet = {k21.GetTerulet()}");
 
             #endregion Eof kor2
+            #region henger
+            henger h1 = new henger(15, 30);
+            Console.WriteLine($"\n\nhenger adataia: \nsugara={h1.GetSugar()}, \nmagassaga={h1.GetMagassag()}, \nalapterulete={h1.GetTerulet()}, \ntérfogata={h1.GetTerfogat()}");
+            #endregion 4. eof
             Console.ReadKey();
         }
     }

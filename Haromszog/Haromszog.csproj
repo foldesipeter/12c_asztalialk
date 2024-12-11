@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C71C215E-3690-41D5-A9FE-4273B13AF7BA}</ProjectGuid>
+    <ProjectGuid>{0F94E830-CEB2-4AB4-A273-7C60267E73A2}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>korhasab</RootNamespace>
-    <AssemblyName>korhasab</AssemblyName>
+    <RootNamespace>Haromszog</RootNamespace>
+    <AssemblyName>Haromszog</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,12 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="henger.cs" />
-    <Compile Include="kor.cs" />
-    <Compile Include="kor2.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="HaromszogTipusaOOP.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Téglalap.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
